@@ -1,2 +1,5 @@
 node_modules
 coverage/
+.neon
+.env
+.env.local
