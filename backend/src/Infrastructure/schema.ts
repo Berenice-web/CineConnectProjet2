@@ -43,7 +43,7 @@ export const films = pgTable(
     updatedAt: timestamp("updated_at").defaultNow().notNull(),
   },
   (table) => ({
-    titleIndex: uniqueIndex("idx_films_title").on(table.title),
+    titleIndex: index("idx_films_title").on(table.title),
     yearIndex: index("idx_films_year").on(table.year),
   }),
 );

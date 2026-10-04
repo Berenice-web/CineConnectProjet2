@@ -3,3 +3,4 @@ coverage/
 .neon
 .env
 .env.local
+dist
